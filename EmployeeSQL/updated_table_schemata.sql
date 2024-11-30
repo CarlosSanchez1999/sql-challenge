@@ -41,11 +41,11 @@ INSERT INTO employees (emp_no, emp_title_id, birth_date, first_name, last_name, 
 SELECT
     emp_no,
     emp_title_id,
-    TO_DATE(birth_date, 'YYYY/MM/DD'),
+    TO_DATE(birth_date, 'MM/DD/YYYY'),
     first_name,
     last_name,
     sex,
-    TO_DATE(hire_date, 'YYYY/MM/DD')
+    TO_DATE(hire_date, 'MM/DD/YYYY')
 FROM temp_employees;
 
 DROP TABLE temp_employees; -- I ended up dropping the temporary table as my employees table is already filled with the transformed data I needed.
