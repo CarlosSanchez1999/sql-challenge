@@ -6,22 +6,7 @@ Welcome to the **SQL Challenge** repository! This project demonstrates the imple
 ---
 
 ## Repository Structure
-The repository is organized as follows:
 
-```plaintext
-sql-challenge/
-├── EmployeeSQL/          # Contains SQL scripts
-│   ├── updated_table_schemata.sql    # SQL schema for table creation
-│   ├── Data Analysis.sql             # SQL code for data analysis queries
-├── data/                 # Folder containing all the CSV files used for populating the database
-│   ├── departments.csv
-│   ├── dept_emp.csv
-│   ├── dept_manager.csv
-│   ├── employees.csv
-│   ├── salaries.csv
-│   └── titles.csv
-├── ERD diagram.png       # PNG file of the Entity-Relationship Diagram
-└── README.md             # This README file
 ## Folder Details
 
 ### **EmployeeSQL/**
