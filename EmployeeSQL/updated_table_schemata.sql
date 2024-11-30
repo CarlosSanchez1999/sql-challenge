@@ -47,6 +47,8 @@ SELECT
     sex,
     TO_DATE(hire_date, 'YYYY/MM/DD')
 FROM temp_employees;
+
+DROP TABLE temp_employees; -- I ended up dropping the temporary table as my employees table is already filled with the transformed data I needed.
  ------------------------------------------------------------------------------------
  
 CREATE TABLE salaries (
