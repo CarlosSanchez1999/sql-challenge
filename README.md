@@ -1,7 +1,7 @@
 # SQL Challenge Repository
 
 ## Overview
-Welcome to the **EmployeeSQL** repository! This project provides a comprehensive SQL-based data analysis for managing and analyzing employee data. It includes the database schema, data files, ERD diagram, and SQL queries for performing various analyses.
+Welcome to the **SQL Challenge** repository! This project demonstrates the implementation of a SQL database for analyzing employee data. It includes the database schema, data files, Entity-Relationship Diagram (ERD), and SQL queries for performing data analysis.
 
 ---
 
@@ -9,8 +9,16 @@ Welcome to the **EmployeeSQL** repository! This project provides a comprehensive
 The repository is organized as follows:
 
 ```plaintext
-EmployeeSQL/
-├── EmployeeSQL/          # Contains SQL code and database schema
-├── data/                 # Contains all the CSV files used for populating the database
-├── ERD diagram.png       # Entity-Relationship Diagram in PNG format
+sql-challenge/
+├── EmployeeSQL/          # Contains SQL scripts
+│   ├── updated_table_schemata.sql    # SQL schema for table creation
+│   ├── Data Analysis.sql             # SQL code for data analysis queries
+├── data/                 # Folder containing all the CSV files used for populating the database
+│   ├── departments.csv
+│   ├── dept_emp.csv
+│   ├── dept_manager.csv
+│   ├── employees.csv
+│   ├── salaries.csv
+│   └── titles.csv
+├── ERD diagram.png       # PNG file of the Entity-Relationship Diagram
 └── README.md             # This README file
