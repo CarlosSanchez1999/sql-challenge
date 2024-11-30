@@ -27,24 +27,5 @@ This folder contains the CSV files used to populate the database tables:
 ### **ERD diagram.png**
 The Entity-Relationship Diagram visualizes the relationships between the tables in the database.
 
-## Getting Started
-To get started with this project, follow these steps:
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/CarlosSanchez1999/sql-challenge.git
-
-### 2. Set Up the Database
-- Navigate to the `EmployeeSQL/` folder in your repository.
-- Open the `updated_table_schemata.sql` file.
-- Execute the SQL script in your preferred SQL environment (e.g., pgAdmin, psql) to create the database schema. 
-- This script includes instructions for setting up the tables and manually importing the data.
-
-### 3. Run the Queries
-- Open the `Data Analysis.sql` file in the `EmployeeSQL/` folder.
-- Execute the queries to explore various insights from the employee data.
-- These queries include analyses of:
-  - Employee salaries.
-  - Department assignments.
-  - Management hierarchies.
 
