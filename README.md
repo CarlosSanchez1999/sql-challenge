@@ -1,4 +1,4 @@
-# SQL Challenge Repository
+# EMPLOYEE DATABASE ANALYSIS
 
 ## Overview
 Welcome to the **SQL Challenge** repository! This project demonstrates the implementation of a SQL database for analyzing employee data. It includes the database schema, data files, Entity-Relationship Diagram (ERD), and SQL queries for performing data analysis.
